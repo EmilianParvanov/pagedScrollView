@@ -102,6 +102,8 @@
     }
     
     //paging
+    //paging
+    NSLog(@"paging");
     
     NSUInteger page = 0;
     for(UIView *view in pageContainer) {
