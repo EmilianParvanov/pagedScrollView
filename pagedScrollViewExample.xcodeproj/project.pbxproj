@@ -13,8 +13,6 @@
 		BD42A5DD18F2B7920002128E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BD42A5DB18F2B7920002128E /* InfoPlist.strings */; };
 		BD42A5DF18F2B7920002128E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BD42A5DE18F2B7920002128E /* main.m */; };
 		BD42A5E318F2B7920002128E /* EPPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BD42A5E218F2B7920002128E /* EPPAppDelegate.m */; };
-		BD42A5E618F2B7920002128E /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD42A5E418F2B7920002128E /* Main_iPhone.storyboard */; };
-		BD42A5E918F2B7920002128E /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD42A5E718F2B7920002128E /* Main_iPad.storyboard */; };
 		BD42A5EC18F2B7920002128E /* EPPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD42A5EB18F2B7920002128E /* EPPViewController.m */; };
 		BD42A5EE18F2B7920002128E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD42A5ED18F2B7920002128E /* Images.xcassets */; };
 		BD42A5F518F2B7920002128E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD42A5F418F2B7920002128E /* XCTest.framework */; };
@@ -45,8 +43,6 @@
 		BD42A5E018F2B7920002128E /* pagedScrollViewExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "pagedScrollViewExample-Prefix.pch"; sourceTree = "<group>"; };
 		BD42A5E118F2B7920002128E /* EPPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EPPAppDelegate.h; sourceTree = "<group>"; };
 		BD42A5E218F2B7920002128E /* EPPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EPPAppDelegate.m; sourceTree = "<group>"; };
-		BD42A5E518F2B7920002128E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
-		BD42A5E818F2B7920002128E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
 		BD42A5EA18F2B7920002128E /* EPPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EPPViewController.h; sourceTree = "<group>"; };
 		BD42A5EB18F2B7920002128E /* EPPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EPPViewController.m; sourceTree = "<group>"; };
 		BD42A5ED18F2B7920002128E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -116,8 +112,6 @@
 			children = (
 				BD42A5E118F2B7920002128E /* EPPAppDelegate.h */,
 				BD42A5E218F2B7920002128E /* EPPAppDelegate.m */,
-				BD42A5E418F2B7920002128E /* Main_iPhone.storyboard */,
-				BD42A5E718F2B7920002128E /* Main_iPad.storyboard */,
 				BD42A5EA18F2B7920002128E /* EPPViewController.h */,
 				BD42A5EB18F2B7920002128E /* EPPViewController.m */,
 				BD42A5ED18F2B7920002128E /* Images.xcassets */,
@@ -231,9 +225,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BD42A5E918F2B7920002128E /* Main_iPad.storyboard in Resources */,
 				BD42A5EE18F2B7920002128E /* Images.xcassets in Resources */,
-				BD42A5E618F2B7920002128E /* Main_iPhone.storyboard in Resources */,
 				BD42A5DD18F2B7920002128E /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,22 +276,6 @@
 				BD42A5DC18F2B7920002128E /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		BD42A5E418F2B7920002128E /* Main_iPhone.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BD42A5E518F2B7920002128E /* Base */,
-			);
-			name = Main_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		BD42A5E718F2B7920002128E /* Main_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BD42A5E818F2B7920002128E /* Base */,
-			);
-			name = Main_iPad.storyboard;
 			sourceTree = "<group>";
 		};
 		BD42A5FD18F2B7920002128E /* InfoPlist.strings */ = {

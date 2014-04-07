@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface EPPViewController : UIViewController
+@interface EPPViewController : UIViewController <UIScrollViewDelegate>
 
 @end

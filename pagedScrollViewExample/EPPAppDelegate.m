@@ -7,12 +7,20 @@
 //
 
 #import "EPPAppDelegate.h"
+#import "EPPViewController.h"
 
 @implementation EPPAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.mainViewController = [[EPPViewController alloc] init];
+    UIViewController *navigationController = [[UINavigationController alloc] initWithRootViewController:self.mainViewController];
+    self.window.rootViewController = navigationController;
+    [self.window makeKeyAndVisible];
+    
+    
+    
     return YES;
 }
 							
